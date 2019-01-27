@@ -1,0 +1,18 @@
+
+#myButton{
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  outline: none;
+  transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
+
+}
+ 
+#myButton:hover {
+  transform: scale(1.2, 1.2);
+}
+ 
+#myButton:active {
+  background-color: teal;
+}

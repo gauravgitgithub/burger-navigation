@@ -1,0 +1,36 @@
+#flyoutMenu {
+  width: 30vw;
+  height: 100vh;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: transform .3s
+              cubic-bezier(0, .52, 0, 1);
+  overflow: scroll;
+  z-index: 1000;
+}
+ 
+#flyoutMenu.hide {
+  transform: translate3d(-100vw, 0, 0);
+}
+ 
+#flyoutMenu.show {
+  transform: translate3d(0vw, 0, 0);
+  overflow: hidden;
+}
+ 
+#flyoutMenu h2 a {
+  color: teal;
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+#flyoutMenu h2 img {
+  margin-left: 70%;
+}
+ 
+#flyoutMenu h2 a:hover {
+  color: orange;
+}

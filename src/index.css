@@ -1,0 +1,15 @@
+body {
+  background-color: #EEE;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  margin: 0;
+  overflow: auto;
+}
+ 
+.App{
+	margin-top: 7%;
+	margin-left: 20%;
+	color: black;
+	font-size: 20px;
+}
